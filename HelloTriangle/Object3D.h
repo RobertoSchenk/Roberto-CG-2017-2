@@ -12,7 +12,7 @@ private:
 	glm::mat4 translate, scale, rotation;
 	glm::vec3 scaleVector;
 	void Initialize(string filePath);
-
+	unsigned char* image;
 
 public:
 	Object3D();

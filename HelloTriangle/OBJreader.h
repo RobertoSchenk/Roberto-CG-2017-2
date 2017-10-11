@@ -5,13 +5,8 @@
 #include <string>
 #include <sstream>
 #include <vector>
-
+#include "Material.h"
 using namespace std;
-
-#include <GL/glew.h>
-
-// GLFW
-#include <GLFW/glfw3.h>
 
 // GLM
 #include <glm/glm.hpp>

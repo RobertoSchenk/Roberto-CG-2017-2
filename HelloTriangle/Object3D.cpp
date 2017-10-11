@@ -66,6 +66,7 @@ Object3D::Object3D(string path, float x, float y, float z)
 	Translate(x, y, z);
 }
 
+
 void Object3D::Translate(glm::vec3 translation)
 {
 	translate = glm::translate(translate, translation);
